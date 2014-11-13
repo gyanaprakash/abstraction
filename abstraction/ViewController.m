@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Absclas.h"
 
 @interface ViewController ()
 
@@ -14,7 +15,12 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
+//    abstractClassViewController *abs = [[abstractClassViewController alloc]initWithNibName:@"abstractClassViewController" bundle:nil];
+//    //[self.view addSubview:abs.];
+//    [abs jjkjkl];
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -24,4 +30,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)bclick:(UIButton *)sender
+{
+    Absclas *obj = [[Absclas alloc]initWithNibName:@"Absclas" bundle:nil];
+    [self.view addSubview:obj.view];
+    
+}
 @end

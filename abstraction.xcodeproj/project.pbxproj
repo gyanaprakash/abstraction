@@ -10,10 +10,14 @@
 		BCA39CAC1A1470ED00BB1D3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA39CAB1A1470ED00BB1D3F /* main.m */; };
 		BCA39CAF1A1470ED00BB1D3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA39CAE1A1470ED00BB1D3F /* AppDelegate.m */; };
 		BCA39CB21A1470ED00BB1D3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA39CB11A1470ED00BB1D3F /* ViewController.m */; };
-		BCA39CB51A1470ED00BB1D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA39CB31A1470ED00BB1D3F /* Main.storyboard */; };
 		BCA39CB71A1470ED00BB1D3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA39CB61A1470ED00BB1D3F /* Images.xcassets */; };
 		BCA39CBA1A1470ED00BB1D3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA39CB81A1470ED00BB1D3F /* LaunchScreen.xib */; };
 		BCA39CC61A1470ED00BB1D3F /* abstractionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA39CC51A1470ED00BB1D3F /* abstractionTests.m */; };
+		BCA39CD01A1471DC00BB1D3F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA39CCF1A1471DC00BB1D3F /* ViewController.xib */; };
+		BCA39CD31A14723100BB1D3F /* abstractClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA39CD21A14723100BB1D3F /* abstractClassViewController.m */; };
+		BCA39CD51A14723F00BB1D3F /* abstractClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA39CD41A14723F00BB1D3F /* abstractClassViewController.xib */; };
+		BCA39CD91A14775F00BB1D3F /* Absclas.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA39CD71A14775F00BB1D3F /* Absclas.m */; };
+		BCA39CDA1A14775F00BB1D3F /* Absclas.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA39CD81A14775F00BB1D3F /* Absclas.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +38,18 @@
 		BCA39CAE1A1470ED00BB1D3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BCA39CB01A1470ED00BB1D3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BCA39CB11A1470ED00BB1D3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BCA39CB41A1470ED00BB1D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCA39CB61A1470ED00BB1D3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BCA39CB91A1470ED00BB1D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BCA39CBF1A1470ED00BB1D3F /* abstractionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = abstractionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA39CC41A1470ED00BB1D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCA39CC51A1470ED00BB1D3F /* abstractionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abstractionTests.m; sourceTree = "<group>"; };
+		BCA39CCF1A1471DC00BB1D3F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BCA39CD11A14723100BB1D3F /* abstractClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abstractClassViewController.h; sourceTree = "<group>"; };
+		BCA39CD21A14723100BB1D3F /* abstractClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = abstractClassViewController.m; sourceTree = "<group>"; };
+		BCA39CD41A14723F00BB1D3F /* abstractClassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = abstractClassViewController.xib; sourceTree = "<group>"; };
+		BCA39CD61A14775F00BB1D3F /* Absclas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Absclas.h; sourceTree = "<group>"; };
+		BCA39CD71A14775F00BB1D3F /* Absclas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Absclas.m; sourceTree = "<group>"; };
+		BCA39CD81A14775F00BB1D3F /* Absclas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Absclas.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +95,13 @@
 				BCA39CAE1A1470ED00BB1D3F /* AppDelegate.m */,
 				BCA39CB01A1470ED00BB1D3F /* ViewController.h */,
 				BCA39CB11A1470ED00BB1D3F /* ViewController.m */,
-				BCA39CB31A1470ED00BB1D3F /* Main.storyboard */,
+				BCA39CCF1A1471DC00BB1D3F /* ViewController.xib */,
+				BCA39CD11A14723100BB1D3F /* abstractClassViewController.h */,
+				BCA39CD21A14723100BB1D3F /* abstractClassViewController.m */,
+				BCA39CD61A14775F00BB1D3F /* Absclas.h */,
+				BCA39CD71A14775F00BB1D3F /* Absclas.m */,
+				BCA39CD81A14775F00BB1D3F /* Absclas.xib */,
+				BCA39CD41A14723F00BB1D3F /* abstractClassViewController.xib */,
 				BCA39CB61A1470ED00BB1D3F /* Images.xcassets */,
 				BCA39CB81A1470ED00BB1D3F /* LaunchScreen.xib */,
 				BCA39CA91A1470ED00BB1D3F /* Supporting Files */,
@@ -199,8 +215,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA39CB51A1470ED00BB1D3F /* Main.storyboard in Resources */,
 				BCA39CBA1A1470ED00BB1D3F /* LaunchScreen.xib in Resources */,
+				BCA39CD51A14723F00BB1D3F /* abstractClassViewController.xib in Resources */,
+				BCA39CD01A1471DC00BB1D3F /* ViewController.xib in Resources */,
+				BCA39CDA1A14775F00BB1D3F /* Absclas.xib in Resources */,
 				BCA39CB71A1470ED00BB1D3F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCA39CB21A1470ED00BB1D3F /* ViewController.m in Sources */,
+				BCA39CD31A14723100BB1D3F /* abstractClassViewController.m in Sources */,
+				BCA39CD91A14775F00BB1D3F /* Absclas.m in Sources */,
 				BCA39CAF1A1470ED00BB1D3F /* AppDelegate.m in Sources */,
 				BCA39CAC1A1470ED00BB1D3F /* main.m in Sources */,
 			);
@@ -244,14 +264,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BCA39CB31A1470ED00BB1D3F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCA39CB41A1470ED00BB1D3F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BCA39CB81A1470ED00BB1D3F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
